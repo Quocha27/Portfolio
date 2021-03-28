@@ -1,0 +1,86 @@
+/* element styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* the background color for body */
+body {
+    background-color: #ffffff;
+}
+
+/* header styling */
+.header {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2e3031;
+    color: #f6f8f8;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.header h1 .seo {
+
+}
+
+/* changed the <div> into a nav, used to navigate the style of the page. */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    color: aqua;
+}
+
+nav a {
+    color:aqua;
+}
+
+p {
+    font-size: 16px;
+    font-family: monospace;
+    text-align: end;
+}
+.p2 {
+    text-align: left;
+}
+
+/* image in the center */
+.hero {
+    padding: 40px;
+    background-color: #249ad5;
+}
+
+/* content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content img {
+    max-height: 500px;
+}
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
+
+
