@@ -16,15 +16,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2e3031;
     color: #f6f8f8;
+    display: block;
 }
-
 .header h1 {
     display: inline-block;
     font-size: 40px;
-}
-
-.header h1 .seo {
-
 }
 
 /* changed the <div> into a nav, used to navigate the style of the page. */
@@ -55,15 +51,46 @@ p {
     font-family: monospace;
     text-align: end;
 }
-.p2 {
+
+#contact-me {
+    font-family: monospace;
     text-align: left;
+    font-size: larger;
 }
 
-/* image in the center */
-.hero {
+.portfolio {
     padding: 40px;
     background-color: #249ad5;
 }
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 350px;
+    width: 250%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}    
 
 /* content */
 .content {
@@ -80,7 +107,9 @@ p {
     font-size: 36px;
 }
 
-
+.footer {
+    height: 300px;
+}
 
 
 
