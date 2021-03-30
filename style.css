@@ -69,11 +69,11 @@ p {
 
 .portfolio-items-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .portfolio-item-wrapper {
-    position:relative
+    position:relative;
 }
 
 .portfolio-img-background {
@@ -90,12 +90,6 @@ p {
     width: 50%;
     margin-bottom: 20px;
 }
-
-.img-text-wrapper .subtitle {
-    transition: 1s;
-    font-weight: 600;
-    color: transparent;
-}    
 
 /* content */
 .content {
