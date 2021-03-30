@@ -104,6 +104,7 @@ p {
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    border-right-style: solid;
 }
 
 .footer {
