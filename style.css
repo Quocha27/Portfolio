@@ -68,7 +68,7 @@ p {
 }
 
 .portfolio-items-wrapper {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
