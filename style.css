@@ -11,6 +11,10 @@ body {
 }
 
 /* header styling */
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
 .header {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,7 +32,7 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 
@@ -65,11 +69,11 @@ p {
 
 .portfolio-items-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .portfolio-item-wrapper {
-    position: relative;
+    position:relative
 }
 
 .portfolio-img-background {
@@ -78,6 +82,7 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 40px;
 }
 
 
