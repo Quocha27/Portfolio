@@ -26,8 +26,7 @@ h2 {
     display: inline-block;
     font-size: 40px;
 }
-
-/* changed the <div> into a nav, used to navigate the style of the page. */
+ /* Nav */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -62,6 +61,7 @@ p {
     font-size: larger;
 }
 
+/* Portfolio */
 .portfolio {
     padding: 40px;
     background-color: #249ad5;
@@ -91,10 +91,10 @@ p {
     margin-bottom: 20px;
 }
 
-/* content */
+
 .content {
     width: 75%;
-    display: inline-block;
+    display: grid;
     margin-left: 20px;
 }
 
