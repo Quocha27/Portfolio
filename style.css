@@ -9,10 +9,10 @@
 
 header h1 {
     display: inline-block;
-    background-color: rgb(8, 74, 5);
 }
+
 h1 {
-    color:rgb(24, 219, 230);
+    color:#249ad5;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 200%;
     padding: 20px;
@@ -41,7 +41,7 @@ p {
     height: 77px;
     width: 97.5;
     padding: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     margin-top: -21px;
     background-color: #249ad5;
 }
@@ -83,6 +83,7 @@ nav a {
   
 .container .content {
     position: absolute;
+    box-sizing: border-box;
     top: 0;
     bottom: 0;
     background: rgb(0, 0, 0);
@@ -93,6 +94,23 @@ nav a {
     height: 92%;
   }
 
+  .container img {
+box-sizing: border-box;
+  }
+
 .contact-me {
     background-color: rgb(240, 238, 241);
+  }
+
+
+  @media screen and (max-width: 850px) {
+    h1 {
+      background: #0d5ab8;
+    }
+  }
+  
+ @media screen and (max-width: 500px) {
+    body {
+      background-color: #2f0421;
+    }
   }
