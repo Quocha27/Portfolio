@@ -27,8 +27,14 @@ h2 {
      margin: 20px;
 }
 p {
-    color: blue;
-    font-size: 100%;
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+}
+
+#about-me p {
+    color: darkcyan;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 .subtitle {
@@ -82,7 +88,7 @@ nav a {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 37%;
+    width: 30%;
     padding: 20px;
     height: 92%;
   }
