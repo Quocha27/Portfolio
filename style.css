@@ -1,6 +1,6 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 .header {
     padding: -12px;
     font-family: monospace;
@@ -37,24 +37,28 @@ p {
     font-size: 20px;
 }
 
-.subtitle {
+#subtitle {
     height: 77px;
     width: 97.5;
     padding: 20px;
     margin-bottom: 0px;
     margin-top: -21px;
     background-color: #249ad5;
+    text-align: end;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
 }
 
 .my-work img {
     display: inline-flex;
-    grid-template-columns: 1fr 1fr 11fr;
-
-
 }
+
 img {
     height: 350px;
-    width: 240px;
+    width: 280px;
 }
 
 nav {
@@ -94,12 +98,14 @@ nav a {
     height: 92%;
   }
 
-  .container img {
-box-sizing: border-box;
+
+
+  img:hover {
+    background-color: darkgreen;
   }
 
 .contact-me {
-    background-color: rgb(240, 238, 241);
+    background-color: rgb(255, 255, 255);
   }
 
 
