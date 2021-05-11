@@ -8,13 +8,12 @@
     border-radius: 7px;
 }
 
-header h1 {
-    display: inline-block;
+header {
+    display: inline;
 }
 
 h1, h2 {
     color:#249ad5;
-    font-family: 'Helvetica Neue', sans-serif;
     font-size: 200%;
     padding: 20px;
     margin: -7px;
@@ -56,7 +55,7 @@ p {
 }
 
 .my-work img {
-    display: inline-flex;
+    display: inline;
 }
 
 img {
@@ -74,7 +73,7 @@ nav {
 }
 
 nav li {
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
 }
 
