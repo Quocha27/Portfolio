@@ -87,7 +87,7 @@ nav a {
     margin: 0 auto;
   }
   
-.container .content {
+ .content {
     position: absolute;
     box-sizing: border-box;
     top: 0;
