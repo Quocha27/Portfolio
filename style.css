@@ -99,6 +99,9 @@ nav a {
     padding: 20px;
     height: 92%;
   }
+  .content:hover {
+    background-color: transparent;
+  }
   .contact-me{
     background-color: white;
   }
