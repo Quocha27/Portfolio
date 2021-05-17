@@ -12,7 +12,15 @@ header {
     display: inline;
 }
 
-h1, h2 {
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 200%;
+    padding: 20px;
+    margin: -7px;
+    font-family: "Audiowide", sans-serif;
+}
+h2 {
     color:#249ad5;
     font-size: 200%;
     padding: 20px;
@@ -46,17 +54,34 @@ p {
     margin-bottom: 0px;
     margin-top: -21px;
     background-color: #249ad5;
+    background-image: linear-gradient(to bottom right, green, #249ad5);
     text-align: end;
     text-transform: capitalize;
     color: white;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .my-work img {
     display: inline;
 }
+
+img {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+}
+
+
 
 img {
     height: 350px;
@@ -79,8 +104,12 @@ nav li {
 
 nav a {
     color: white;
+    text-decoration: none;
 }
 
+li a:hover {
+  background-color: #111;
+}
 .container {
     position: relative;
     max-width: 800px;
